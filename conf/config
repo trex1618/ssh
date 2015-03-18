@@ -1,0 +1,6 @@
+# Conf file name
+CONF=dev
+
+# SSH conf
+USER=root
+HOST=$USER
