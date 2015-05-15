@@ -63,6 +63,10 @@ else
   PASSPHASE=
 fi
 
+if [ ! -d "ssh"]; then
+  mkdir ssh
+fi
+
 #Create SSH pair
 IDKEY=ssh/$USER\_rsa
 
