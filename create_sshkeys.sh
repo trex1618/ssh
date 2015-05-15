@@ -68,7 +68,7 @@ if [ ! -d "ssh"]; then
 fi
 
 #Create SSH pair
-IDKEY=ssh/$USER@HOST\_rsa
+IDKEY=ssh/$USER@$HOST\_rsa
 
 if [ -e "$IDKEY" ]; then 
   rm -f $IDKEY
