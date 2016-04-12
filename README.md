@@ -1,5 +1,6 @@
-Create SSH Keys with a password
+Create SSH keys with a password
 
-Usage
+## Usage
 
 ./create_sshkeys.sh -u trex1618 -h github -p
+
